@@ -46,8 +46,8 @@ class LogParser:
     TYPE_ERROR = 'ERROR'
     
     def __init__(self, file_name):
-        self.log = []
-        self.file_name = file_name
+        self._parsed_log = []
+        self._file_name = file_name
 
         # Regex pattern
         self.log_pattern = re.compile(r'''
@@ -60,12 +60,12 @@ class LogParser:
             (?P<message>.+)                                          # Message content
         ''', re.VERBOSE)
 
-    def get_log(self):
+    def get_parsed_log(self):
         """
         Return the parsed log entries.
         """
 
-        return self.log
+        return self._parsed_log
 
     def parse_file(self):
         """ 
@@ -73,11 +73,11 @@ class LogParser:
         with timestamp, type, username, error code, and message.
         """
         try:
-            with open(self.file_name) as file:
+            with open(self._file_name) as file:
                 for line in file:
                     self._parse_line(line)
         except IOError as e:
-            print(f"Error reading file: {e}")
+            logging.error(f"Error reading file: {e}")
 
     def _parse_line(self, line):
         """ 
@@ -101,14 +101,14 @@ class LogParser:
                 parsed_line[self.USER] = match.group(self.USERNAME)
             if match.group(self.ERROR_CODE):
                 parsed_line[self.ERROR_CODE] = match.group(self.ERROR_CODE)
-            self.log.append(parsed_line)
+            self._parsed_log.append(parsed_line)
 
         else:
-            print(f"Failed to parse line: {line.strip()}")
+            logging.warning(f"Failed to parse line: {line.strip()}")
 
 
 if __name__ == '__main__':
-    log_parser = LogParser('log_file.log')
+    log_parser = LogParser('log_parser/log_file.log')
     log_parser.parse_file()
-    for parsed_line in log_parser.log:
+    for parsed_line in log_parser._parsed_log:
         print(parsed_line)
