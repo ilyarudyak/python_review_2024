@@ -34,7 +34,7 @@ class LevelClassifier:
         candidate_labels=[self.BEGINNER, self.INTERMEDIATE]
         label, score = self._classifier(description, candidate_labels)['labels'][0], \
                        self._classifier(description, candidate_labels)['scores'][0]
-        # Change label to INTERMEDIATE the score is below the threshold
+        # Change label to INTERMEDIATE if the score is below the threshold
         if score < self.THRESHOLD:
             label = self.INTERMEDIATE
             score = 1 - score

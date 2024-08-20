@@ -1,0 +1,693 @@
+title,author,year,edition,full_description,level,score
+Automate the Boring Stuff with Python,Al Sweigart,2019,2nd Edition,"Automate the Boring Stuff with Python, 3rd edition coming soon. Click here for details.
+Look Inside!
+
+>
+
+
+Download Chapter 7: PATTERN MATCHING WITH REGULAR EXPRESSIONS (PDF)
+Download the files used in the book
+
+If you’ve ever spent hours renaming files or updating hundreds of spreadsheet cells, you know how tedious tasks like these can be. But what if you could have your computer do them for you?
+In this fully revised second edition of the best-selling classic Automate the Boring Stuff with Python, you’ll learn how to use Python to write programs that do in minutes what would take you hours to do by hand—no prior programming experience required. You'll learn the basics of Python and explore Python’s rich library of modules for performing specific tasks, like scraping data off websites, reading PDF and Word documents, and automating clicking and typing tasks.
+The second edition of this international fan favorite includes a brand-new chapter on input validation, as well as tutorials on automating Gmail and Google Sheets, plus tips on automatically updating CSV files. You’ll learn how to create programs that effortlessly perform useful feats of automation to:
+
+Search for text in a file or across multiple files
+Create, update, move, and rename files and folders
+Search the Web and download online content
+Update and format data in Excel spreadsheets of any size
+Split, merge, watermark, and encrypt PDFs
+Send email responses and text notifications
+Fill out online forms
+
+Step-by-step instructions walk you through each program, and updated practice projects at the end of each chapter challenge you to improve those programs and use your newfound skills to automate similar tasks. 
+Don't spend your time doing work a well-trained monkey could do. Even if you've never written a line of code, you can make your computer do the grunt work. Learn how in Automate the Boring Stuff with Python, 2nd Edition.
+",Beginner,0.64
+Automate the Boring Stuff with Python,Al Sweigart,2025,3rd Edition,"If you’ve ever spent hours renaming files or updating hundreds of spreadsheet cells, you know how tedious tasks like these can be. But what if you could have your computer do them for you? In this fully revised edition of the best-selling classic Automate the Boring Stuff with Python, you’ll learn how to use Python to write programs that do in minutes what would take you hours to do by hand—no prior programming experience required. You'll learn the basics of coding in Python and explore the language’s’s rich library of modules for performing specific tasks, like scraping data from websites, searching for text across multiple files, and merging, watermarking, or encrypting PDFs.
+The third edition includes:
+
+Expanded coverage of developer techniques, like creating command line programs
+Updated examples and new projects
+Additional chapters about working with SQLite databases, speech-recognition technology, video and audio editing, and text-to-speech capabilities
+Simplified explanations (based on reader feedback) of beginner programming concepts, like loops and conditionals
+
+Even if you've never written a line of code, Automate the Boring Stuff with Python, 3rd Edition will teach you how to make your computer take on tedious tasks and do all your grunt work—the way it should be
+",Beginner,0.8
+Beyond the Basic Stuff with Python,Al Sweigart,2020,,"Look Inside!
+
+
+
+Download Chapter 2: ENVIRONMENT SETUP AND THE COMMAND LINE
+BRIDGE THE GAP BETWEEN NOVICE AND PROFESSIONAL
+You’ve completed a basic Python programming tutorial or finished Al Sweigart’s best selling Automate the Boring Stuff with Python. What’s the next step toward becoming a capable, confident software developer?
+Welcome to Beyond the Basic Stuff with Python. More than a mere collection of advanced syntax and masterful tips for writing clean code, this book will teach you how to advance your Python programming skills by using the command line and other professional tools like code formatters, type checkers, linters, and version control. Sweigart takes you through best practices for setting up your development environment, naming variables, and improving readability, then tackles documentation, organization and performance measurement, as well as object-oriented design and the Big-O algorithm analysis commonly used in coding interviews. The skills you learn will boost your ability to program—not just in Python but in any language.
+You’ll learn:
+
+Coding style, and how to use Python’s Black auto-formatting tool for cleaner code
+Common sources of bugs, and how to detect them with static analyzers
+How to structure the files in your code projects with the Cookiecutter template tool
+Functional programming techniques like lambda and higher-order functions
+How to profile the speed of your code with Python’s built-in timeit and cProfile modules
+The computer science behind Big-O algorithm analysis
+How to make your comments and docstrings informative, and how often to write them
+How to create classes in object-oriented programming, and why they’re used to organize code
+
+Toward the end of the book you’ll read a detailed source-code breakdown of two classic command-line games, the Tower of Hanoi (a logic puzzle) and Four-in-a-Row (a two-player tile-dropping game), and a breakdown of how their code follows the book’s best practices. You’ll test your skills by implementing the program yourself.
+Of course, no single book can make you a professional software developer. But Beyond the Basic Stuff with Python will get you further down that path and make you a better programmer in the process as you learn to write readable code that’s easy to debug and perfectly Pythonic.
+",Intermediate,0.43
+Black Hat Python,Justin Seitz and Tim Arnold,2021,2nd Edition,"Look Inside!
+
+   
+
+Download Chapter 3: Writing a Sniffer
+
+Click here to download all the code and resources for the book.
+
+When it comes to creating powerful and effective hacking tools, Python is the language of choice for most security analysts. In this second edition of the bestselling Black Hat Python, you’ll explore the darker side of Python’s capabilities: everything from writing network sniffers, stealing email credentials, and bruteforcing directories to crafting mutation fuzzers, investigating virtual machines, and creating stealthy trojans.
+All of the code in this edition has been updated to Python 3.x. You’ll also find new coverage of bit shifting, code hygiene, and offensive forensics with the Volatility Framework as well as expanded explanations of the Python libraries ctypes, struct, lxml, and BeautifulSoup, and offensive hacking strategies like splitting bytes, leveraging computer vision libraries, and scraping websites.
+You’ll learn how to:
+
+Create a trojan command-and-control server using GitHub
+Detect sandboxing and automate common malware tasks like keylogging and screenshotting
+Extend the Burp Suite web-hacking tool
+Escalate Windows privileges with creative process control
+Use offensive memory forensics tricks to retrieve password hashes and find vulnerabilities on a virtual machine
+Abuse Windows COM automation
+Exfiltrate data from a network undetected
+
+When it comes to offensive security, you need to be able to create powerful tools on the fly. Learn how with Black Hat Python.
+",Intermediate,0.5
+Cracking Codes with Python,Al Sweigart,2018,,"Download Chapter 2: Programming in the Interactive Shell
+Learn how to program in Python while making and breaking ciphers—algorithms used to create and send secret messages! 
+After a crash course in Python programming basics, you’ll learn to make, test, and hack programs that encrypt text with classical ciphers like the transposition cipher and Vigenère cipher. You’ll begin with simple programs for the reverse and Caesar ciphers and then work your way up to public key cryptography, the type of encryption used to secure today’s online transactions, including digital signatures, email, and Bitcoin.
+Each program includes the full code and a line-by-line explanation of how things work. By the end of the book, you’ll have learned how to code in Python and you’ll have the clever programs to prove it!
+You’ll also learn how to:
+
+Combine loops, variables, and flow control statements into real working programs
+Use dictionary files to instantly detect whether decrypted messages are valid English or gibberish
+Create test programs to make sure that your code encrypts and decrypts correctly
+Code (and hack!) a working example of the affine cipher, which uses modular arithmetic to encrypt a message
+Break ciphers with techniques such as brute-force and frequency analysis
+
+There’s no better way to learn to code than to play with real programs. Cracking Codes with Python makes the learning fun!
+",Beginner,0.7
+Dead Simple Python,Jason C. McDonald,2022,,"Download Chapter 5: VARIABLES AND TYPES
+Look Inside!
+
+
+Dead Simple Python is a thorough introduction to every feature of the Python language for programmers who are impatient to write production code. Instead of revisiting elementary computer science topics, you’ll dive deep into idiomatic Python patterns so you can write professional Python programs in no time.
+After speeding through Python’s basic syntax and setting up a complete programming environment, you’ll learn to work with Python’s dynamic data typing, its support for both functional and object-oriented programming techniques, special features like generator expressions, and advanced topics like concurrency. You’ll also learn how to package, distribute, debug, and test your Python project.
+Master how to:
+
+Make Python's dynamic typing work for you to produce cleaner, more adaptive code.
+Harness advanced iteration techniques to structure and process your data.
+Design classes and functions that work without unwanted surprises or arbitrary constraints.
+Use multiple inheritance and introspection to write classes that work intuitively.
+Improve your code's responsiveness and performance with asynchrony, concurrency, and parallelism.
+Structure your Python project for production-grade testing and distribution
+
+The most pedantically pythonic primer ever printed, Dead Simple Python will take you from working with the absolute basics to coding applications worthy of publication.
+",Beginner,0.71
+Dive Into Algorithms,Bradford Tuckfield,2021,,"Look Inside!
+
+ 
+Download Chapter 2: ALGORITHMS IN HISTORY
+
+Dive Into Algorithms is a wide-ranging, Pythonic tour of many of the world's most interesting algorithms. With little more than a bit of computer programming experience and basic high-school math, you'll explore standard computer science algorithms for searching, sorting, and optimization; human-based algorithms that help us determine how to catch a baseball or eat the right amount at a buffet; and advanced algorithms like ones used in machine learning and artificial intelligence. You'll even explore how ancient Egyptians and Russian peasants used algorithms to multiply numbers, how the ancient Greeks used them to find greatest common divisors, and how Japanese scholars in the age of samurai designed algorithms capable of generating magic squares.
+You'll explore algorithms that are useful in pure mathematics and learn how mathematical ideas can improve algorithms. You'll learn about an algorithm for generating continued fractions, one for quick calculations of square roots, and another for generating seemingly random sets of numbers.
+You'll also learn how to:
+
+Use algorithms to debug code, maximize revenue, schedule tasks, and create decision trees
+Measure the efficiency and speed of algorithms
+Generate Voronoi diagrams for use in various geometric applications
+Use algorithms to build a simple chatbot, win at board games, or solve sudoku puzzles
+Write code for gradient ascent and descent algorithms that can find the maxima and minima of functions
+Use simulated annealing to perform global optimization
+Build a decision tree to predict happiness based on a person's characteristics
+
+Once you've finished this book you'll understand how to code and implement important algorithms as well as how to measure and optimize their performance, all while learning the nitty-gritty details of today's most powerful algorithms.
+",Beginner,0.63
+Dive Into Data Science,Bradford Tuckfield,2023,,"Look Inside!
+
+Download Chapter 2: FORECASTING
+Dive into the exciting world of data science with this practical introduction. Packed with essential skills and useful examples, Dive Into Data Science will show you how to obtain, analyze, and visualize data so you can leverage its power to solve common business challenges.
+With only a basic understanding of Python and high school math, you’ll be able to effortlessly work through the book and start implementing data science in your day-to-day work. From improving a bike sharing company to extracting data from websites and creating recommendation systems, you’ll discover how to find and use data-driven solutions to make business decisions.
+Topics covered include conducting exploratory data analysis, running A/B tests, performing binary classification using logistic regression models, and using machine learning algorithms.
+You’ll also learn how to:
+
+Forecast consumer demand 
+Optimize marketing campaigns
+Reduce customer attrition
+Predict website traffic
+Build recommendation systems
+
+With this practical guide at your fingertips, harness the power of programming, mathematical theory, and good old common sense to find data-driven solutions that make a difference. Don’t wait; dive right in!
+",Beginner,0.75
+Doing Math with Python,Amit Saha,2015,,"“Saha does an excellent job providing a clear link between Python and upper-level math concepts, and demonstrates how Python can be transformed into a mathematical stage. This book deserves a spot on every geometry teacher’s bookshelf.”
+—School Library Journal
+
+Download Chapter 1: Working with Numbers
+Download the solutions PDF and code files for the programming challenges
+Visit the author's website for code files and other resources
+
+Doing Math with Python shows you how to use Python to delve into high school–level math topics like statistics, geometry, probability, and calculus. You’ll start with simple projects, like a factoring program and a quadratic-equation solver, and then create more complex projects once you’ve gotten the hang of things. 
+
+Along the way, you’ll discover new ways to explore math and gain valuable programming skills that you’ll use throughout your study of math and computer science. Learn how to:
+
+Describe your data with statistics, and visualize it with line graphs, bar charts, and scatter plots
+Explore set theory and probability with programs for coin flips, dicing, and other games of chance
+Solve algebra problems using Python’s symbolic math functions
+Draw geometric shapes and explore fractals like the Barnsley fern, the Sierpinski triangle, and the Mandelbrot set
+Write programs to find derivatives and integrate functions
+
+Creative coding challenges and applied examples help you see how you can put your new math and coding skills into practice. You’ll write an inequality solver, plot gravity’s effect on how far a bullet will travel, shuffle a deck of cards, estimate the area of a circle by throwing 100,000 “darts” at a board, explore the relationship between the Fibonacci sequence and the golden ratio, and more.
+
+Whether you’re interested in math but have yet to dip into programming or you’re a teacher looking to bring programming into the classroom, you’ll find that Python makes programming easy and practical. Let Python handle the grunt work while you focus on the math.
+
+Uses Python 3
+",Intermediate,0.44
+Gray Hat Python,Justin Seitz,2009,,"
+Download Chapter 2: ""Debuggers and Debugger Design"" and Chapter 4: ""PyDbg: A Pure Python Windows Debugger""
+Download the code from the book
+
+Python is fast becoming the programming language of choice for hackers, reverse engineers, and software testers because it's easy to write quickly, and it has the low-level support and libraries that make hackers happy. But until now, there has been no real manual on how to use Python for a variety of hacking tasks. You had to dig through forum posts and man pages, endlessly tweaking your own code to get everything working. Not anymore.
+Gray Hat Python explains the concepts behind hacking tools and techniques like debuggers, trojans, fuzzers, and emulators. But author Justin Seitz goes beyond theory, showing you how to harness existing Python-based security tools—and how to build your own when the pre-built ones won't cut it.
+You'll learn how to:
+
+Automate tedious reversing and security tasks
+Design and program your own debugger
+Learn how to fuzz Windows drivers and create powerful fuzzers from scratch
+Have fun with code and library injection, soft and hard hooking techniques, and other software trickery
+Sniff secure traffic out of an encrypted web browser session
+Use PyDBG, Immunity Debugger, Sulley, IDAPython, PyEMU, and more
+
+The world's best hackers are using Python to do their handiwork. Shouldn't you?
+",Intermediate,0.49
+Hardcore Programming for Mechanical Engineers,Angel Sola Orbaiceta,2021,,"Look Inside!
+
+ 
+Download Chapter 4: POINTS AND VECTORS
+
+Check out the book's companion site for important updates and extra material.
+
+What if you could solve challenging engineering problems with Python programming? With this book’s hardcore approach, you’ll learn how to code solutions from scratch using linear algebra, geometry, and physics to write custom libraries, draw primitives, and build applications.
+Ángel Sola Orbaiceta covers core programming techniques for mechanical engineers, with a focus on crafting high-quality code and leveraging automated unit testing for error-free implementations. You’ll develop a geometry toolbox, filling it with lines and shapes to diagram engineering problems; create vector graphics and animations for mechanical simulations; and code algorithms to perform complex calculations. As a capstone you’ll combine these lessons to build a complete structural analysis application to solve a 2D truss problem that you might encounter in the field.
+Learn how to:
+
+Use regular expressions to elegantly parse file input
+Refine your code with unit testing, encapsulation, and descriptive names
+Draw images onscreen and create animations with Tkinter’s Canvas widget
+Solve systems of linear equations using the Cholesky decomposition algorithm
+Build an application that visualizes a truss structure’s stresses and strains
+
+Stop relying on third-party software—there are no shortcuts on the path to proficiency. With Hardcore Programming for Mechanical Engineers, you’ll hone your programming skills to get correct results every time.
+",Beginner,0.68
+Impractical Python Projects,Lee Vaughan,2018,,"Download Chapter 3: Solving Anagrams
+Impractical Python Projects picks up where the complete beginner books leave off, expanding on existing concepts and introducing new tools that you’ll use every day. And to keep things interesting, each project includes a zany twist featuring historical incidents, pop culture references, and literary allusions.
+You’ll flex your problem-solving skills and employ Python’s many useful libraries to do things like:
+
+Help James Bond crack a high-tech safe with a hill-climbing algorithm
+Write haiku poems using Markov Chain Analysis
+Use genetic algorithms to breed a race of gigantic rats
+Crack the world’s most successful military cipher using cryptanalysis
+Foil corporate security with invisible electronic ink
+Derive the anagram, “I am Lord Voldemort” using linguistical sieves
+Plan your parents’ secure retirement with Monte Carlo simulation
+Save the sorceress Zatanna from a stabby death using palingrams
+Model the Milky Way and calculate our odds of detecting alien civilizations
+Help the world’s smartest woman win the Monty Hall problem argument
+Reveal Jupiter’s Great Red Spot using optical stacking
+Save the head of Mary, Queen of Scots with steganography
+
+Simulate volcanoes, map Mars, and more, all while gaining valuable experience using free modules like Tkinter, matplotlib, Cprofile, Pylint, Pygame, Pillow, and Python-Docx.
+Whether you’re looking to pick up some new Python skills or just need a pick-me-up, you’ll find endless educational, geeky fun with Impractical Python Projects.
+",Beginner,0.64
+Invent Your Own Computer Games with Python,Al Sweigart,2016,4th Edition,"
+Invent Your Own Computer Games with Python was selected as one of the best books for learning Python by Real Python
+“It's a great introduction to Python and a great introduction to building fairly simple but interesting games. The author's not just a talented coder, but a Python maestro. And his programming techniques provide good lessons on how to approach programming tasks.”
+—Computerworld
+“Games are a great way to engage kids, and Python is a perfect language for them to see immediate results on the screen as they code. Invent Your Own Computer Games with Python should be a hit.”
+—GeekDad
+
+Invent Your Own Computer Games with Python will teach you how to make computer games using the popular Python programming language—even if you’ve never programmed before!
+Begin by building classic games like Hangman, Guess the Number, and Tic-Tac-Toe, and then work your way up to more advanced games, like a text-based treasure hunting game and an animated collision-dodging game with sound effects. Along the way, you’ll learn key programming and math concepts that will help you take your game programming to the next level.
+
+Learn how to: 
+
+Combine loops, variables, and flow control statements into real working programs
+Choose the right data structures for the job, such as lists, dictionaries, and tuples
+Add graphics and animation to your games with the pygame module
+Handle keyboard and mouse input
+Program simple artificial intelligence so you can play against the computer
+Use cryptography to convert text messages into secret code
+Debug your programs and find common errors
+
+As you work through each game, you’ll build a solid foundation in Python and an understanding of computer science fundamentals.
+What new game will you create with the power of Python?
+The projects in this book are compatible with Python 3.
+",Beginner,0.69
+Learn Python Visually,Tristan Bunn,2021,,"Look Inside!
+
+  
+
+Download Chapter 9: FUNCTIONS AND PERIODIC MOTION
+
+The perfect book for first-time programmers, Learn Python Visually introduces the fundamentals of computer coding within a visual, graphics-based context. Tristan Bunn’s creative teaching approach will help you visualize core programming concepts as you make cool pictures, animations, and simulations using Python Mode for the open source Processing development environment.
+From the very first chapter, you’ll produce and manipulate colorful designs as Bunn walks you through a series of easy-to-follow graphical coding projects that grow increasingly complex. You’ll progress from drawing with code to animating a bouncing DVD screensaver to creating interactive programs. Along the way, you’ll encounter skill-building challenges on topics as diverse as video games, coffee, fine art, amoebas, and Pink Floyd.
+You’ll learn how to:
+
+Apply basic coding theories and concepts, like variables, data types, pixel coordinates, control flow, and algorithms
+Write code that produces drawings, patterns, animations, data visualizations, user interfaces, and simulations
+Use code to explore randomness, handle CSV and JSON data, and generate animations that employ trigonometry for periodic motion and Lissajous curves
+Define functions, reduce repetition, and make your code more modular
+Write classes and create objects to structure code more efficiently
+
+If you’ve ever dreamed of coding for data visualizations, computer-generated art, games, or other creative technologies, Learn Python Visually is the entry point you need.
+",Beginner,0.85
+Learn to Code by Solving Problems,Daniel Zingaro,2021,,"Look Inside!
+
+
+
+Download Chapter 2: MAKING DECISIONS
+Supplementary resources for the book, including downloadable code and additional exercises available here.
+Computers are capable of solving almost any problem when given the right instructions. That’s where programming comes in. This beginner’s book will have you writing Python programs right away. You’ll solve interesting problems drawn from real coding competitions and build your programming skills as you go.
+Every chapter presents problems from coding challenge websites, where online judges test your solutions and provide targeted feedback. As you practice using core Python features, functions, and techniques, you’ll develop a clear understanding of data structures, algorithms, and other programming basics. Bonus exercises invite you to explore new concepts on your own, and multiple-choice questions encourage you to think about how each piece of code works.
+You’ll learn how to:
+
+Run Python code, work with strings, and use variables
+Write programs that make decisions
+Make code more efficient with while and for loops
+Use Python sets, lists, and dictionaries to organize, sort, and search data
+Design programs using functions and top-down design
+Create complete-search algorithms and use Big O notation to design more efficient code
+
+By the end of the book, you’ll not only be proficient in Python, but you’ll also understand how to think through problems and tackle them with code. Programming languages come and go, but this book gives you the lasting foundation you need to start thinking like a programmer.
+",Beginner,0.85
+Learn to Program with Minecraft,Craig Richardson,2015,,"“Learn to Program With Minecraft is 297 pages brimming with potential. It’s an excellent guide for Minecraft players wanting to expand their capabilities in the game and with programming. Highly recommended.""
+—GeekDad
+“Learn to Program with Minecraft offers an incredibly user-friendly, intuitive, and innovative approach for learning the Python programming language.”
+—EE Times
+
+
+Download Chapter 1: Setting Up for Your Adventure
+Download Chapter 7: Dance Parties and Flower Parades with while Loops
+Download the setup files for Windows (Minecraft Tools.zip)
+
+Download the setup files for Mac OS (Minecraft Tools Mac.zip)
+Download the code used in the book and solutions to the Minecraft Missions
+Troubleshooting
+
+
+
+You’ve bested creepers, traveled deep into caves, and maybe even gone to The End and back—but have you ever transformed a sword into a magic wand? Built a palace in the blink of an eye? Designed your own color-changing disco dance floor? 
+In Learn to Program with Minecraft®, you’ll do all this and more with the power of Python, a free language used by millions of professional and first-time programmers!
+Begin with some short, simple Python lessons and then use your new skills to modify Minecraft to produce instant and totally awesome results. Learn how to customize Minecraft to make mini-games, duplicate entire buildings, and turn boring blocks into gold. 
+You’ll also write programs that:
+
+Take you on an automated teleportation tour around your Minecraft world
+Build massive monuments, pyramids, forests, and more in a snap!
+Make secret passageways that open when you activate a hidden switch
+Create a spooky ghost town that vanishes and reappears elsewhere
+Show exactly where to dig for rare blocks
+Cast a spell so that a cascade of flowers (or dynamite if you’re daring!) follows your every move
+Make mischief with dastardly lava traps and watery curses that cause huge floods
+
+Whether you’re a Minecraft megafan or a newbie, you’ll see Minecraft in a whole new light while learning the basics of programming. Sure, you could spend all day mining for precious resources or building your mansion by hand, but with the power of Python, those days are over!
+
+Requires: Minecraft Java Edition; Windows 7 or later; OS X 10.10 or later; or a Raspberry Pi.
+Click here for details about system requirements.
+
+Uses Python 3
+",Beginner,0.67
+Make Python Talk,Mark Liu,2021,,"Download Chapter 5: SPEAKING APPLICATIONS
+Click here to download the code files used in the book.
+Click here to visit the book's github repository to download code and access errata reports.
+This fun, hands-on book will take your basic Python skills to the next level as you build voice-controlled apps to use in your daily life. Starting with a Python refresher and an introduction to speech-recognition/text-to-speech functionalities, you’ll soon ease into more advanced topics, like making your own modules and building working voice-controlled apps.
+Each chapter scaffolds multiple projects that allow you to see real results from your code at a manageable pace, while end-of-chapter exercises strengthen your understanding of new concepts. You’ll design interactive games, like Connect Four and Tic-Tac-Toe, and create intelligent computer opponents that talk and take commands; you’ll make a real-time language translator, and create voice-activated financial-market apps that track the stocks or cryptocurrencies you are interested in. Finally, you’ll load all of these features into the ultimate virtual personal assistant – a conversational VPA that tells jokes, reads the news, and gives you hands-free control of your email, browser, music player, desktop files, and more.
+Along the way, you’ll learn how to:
+
+Build Python modules, implement animations, and integrate live data into an app
+Use web-scraping skills for voice-controlling podcasts, videos, and web searches
+Fine-tune the speech recognition to accept a variety of input
+Associate regular tasks like opening files and accessing the web with speech commands
+Integrate functionality from other programs into a single VPA with computational knowledge engines to answer almost any question
+
+Packed with cross-platform code examples to download, practice activities and exercises, and explainer images, you’ll quickly become proficient in Python coding in general and speech recognition/text to speech in particular.
+",Beginner,0.64
+Math Adventures with Python,Peter Farrell,2019,,"Download Chapter 5: Transforming Shapes with Geometry
+Download the code.
+Download solutions to exercises.
+Math Adventures with Python will show you how to harness the power of programming to keep math relevant and fun. With the aid of the Python programming language, you’ll learn how to visualize solutions to a range of math problems as you use code to explore key mathematical concepts like algebra, trigonometry, matrices, and cellular automata.
+Once you’ve learned the programming basics like loops and variables, you’ll write your own programs to solve equations quickly, make cool things like an interactive rainbow grid, and automate tedious tasks like factoring numbers and finding square roots. You’ll learn how to write functions to draw and manipulate shapes, create oscillating sine waves, and solve equations graphically. 
+You’ll also learn how to: 
+
+Draw and transform 2D and 3D graphics with matrices
+Make colorful designs like the Mandelbrot and Julia sets with complex numbers
+Use recursion to create fractals like the Koch snowflake and the Sierpinski triangle
+Generate virtual sheep that graze on grass and multiply autonomously
+Crack secret codes using genetic algorithms
+
+
+As you work through the book’s numerous examples and increasingly challenging exercises, you’ll code your own solutions, create beautiful visualizations, and see just how much more fun math can be!
+",Intermediate,0.41
+Mission Python,Sean McManus,2018,,"Download Chapter 1: Your First Spacewalk
+Download the full code, images, and sound effects for the game here
+Click here for a list of errata and updates (author site)
+Launch into coding with Mission Python, a space-themed guide to building a complete computer game in Python. You'll learn programming fundamentals like loops, strings, and lists as you build Escape!, an exciting game with a map to explore, items to collect, and tricky logic puzzles to solve. As you work through the book, you'll build exercises and mini-projects, like making a spacewalk simulator and creating an astronaut's safety checklist that will put your new Python skills to the test. 
+You'll learn how to use Pygame Zero, a free resource that lets you add graphics and sound effects to your creations, and you'll get useful game-making tips, such as how to design fun puzzles and intriguing maps. Before you know it, you'll have a working, awesome game to stump your friends with (and some nifty coding skills, too!). You can follow this book using a Raspberry Pi or a Microsoft Windows PC, and the 3D graphics and sound effects you need are provided as a download.
+ 
+Take a look inside!
+
+
+
+
+
+
+",Beginner,0.67
+Modeling and Simulation in Python,Allen B. Downey,2023,,"Download Chapter 11: EPIDEMIOLOGY AND SIR MODELS
+Look Inside!
+
+
+Modeling and Simulation in Python is a thorough but easy-to-follow introduction to physical modeling—that is, the art of describing and simulating real-world systems. 
+Readers are guided through modeling things like world population growth, infectious disease, bungee jumping, baseball flight trajectories, celestial mechanics, and more while simultaneously developing a strong understanding of fundamental programming concepts like loops, vectors, and functions.
+Clear and concise, with a focus on learning by doing, the author spares the reader abstract, theoretical complexities and gets right to hands-on examples that show how to produce useful models and simulations.
+",Beginner,0.65
+Natural Language Processing with Python and spaCy,Yuli Vasiliev,2020,,"Look Inside!
+
+
+
+
+Download Chapter 2: The Text-Processing Pipeline (PDF)
+Download the source code from GitHub
+
+
+Natural Language Processing with Python and spaCy will show you how to create NLP applications like chatbots, text-condensing scripts, and order-processing tools quickly and easily. You’ll learn how to leverage the spaCy library to extract meaning from text intelligently; how to determine the relationships between words in a sentence (syntactic dependency parsing); identify nouns, verbs, and other parts of speech (part-of-speech tagging); and sort proper nouns into categories like people, organizations, and locations (named entity recognizing). You’ll even learn how to transform statements into questions to keep a conversation going.
+You’ll also learn how to: 
+
+ Work with word vectors to mathematically find words with similar meanings (Chapter 5)
+ Identify patterns within data using spaCy's built-in displaCy visualizer (Chapter 7)
+ Automatically extract keywords from user input and store them in a relational database (Chapter 9)
+ Deploy a chatbot app to interact with users over the internet (Chapter 11)
+
+
+“Try This” sections in each chapter encourage you to practice what you’ve learned by expanding the book’s example scripts to handle a wider range of inputs, add error handling, and build professional-quality applications.
+By the end of the book, you’ll be creating your own NLP applications with Python and spaCy.
+
+Check out this video where the author discusses how to extract chatbot user input with Python and spaCy.
+
+",Beginner,0.62
+Object-Oriented Python,Irv Kalb,2021,,"Look Inside!
+ 
+
+Download Chapter 2: MODELING PHYSICAL OBJECTS...
+
+Click here to download the book's code and resources.
+Click here to visit the book's github repository.
+ Object-Oriented Programming (OOP) is a paradigm that combines data and code into cohesive units, allowing you to think differently about computational problems and solve them in a highly reusable way. Aimed at intermediate-level programmers, Object-Oriented Python is a hands-on tutorial that goes deep into the core tenets of OOP, showing you how to use encapsulation, polymorphism, and inheritance to write games and apps using Python.
+The book begins by demonstrating key problems inherent in procedural programming, then guides you through the basics of creating classes and objects in Python. You’ll build on this groundwork by developing buttons, text fields, and other GUI elements that are standard in event-driven environments. You’ll also use many real-world code examples and two pygame-based packages to help turn theory into practice, enabling you to easily write interactive games and applications complete with GUI widgets, animations, multiple scenes, and reusable game logic. In the final chapter, you’ll bring it all together by building a fully functional video game that incorporates many of the OOP techniques and GUI elements covered in the book.
+You’ll learn how to:
+
+Create and manage multiple objects using an object manager object
+Use encapsulation to hide the inner details of objects from client code
+Use polymorphism to define one interface and implement it in multiple classes
+Apply inheritance to build on existing code
+
+Object-Oriented Python is a visual, intuitive guide to fully understanding how OOP operates and how you can use it to make your code more maintainable, readable, and efficient—without sacrificing functionality.
+",Intermediate,0.71
+Practical Deep Learning,Ronald T. Kneusel,2021,,"Look Inside!
+   
+Download Chapter 4: WORKING WITH DATA
+You can find the book's code files and latest updates on GitHub. 
+If you’ve been curious about artificial intelligence and machine learning but didn’t know where to start, this is the book you’ve been waiting for. Focusing on the subfield of machine learning known as deep learning, it explains core concepts and gives you the foundation you need to start building your own models. Rather than simply outlining recipes for using existing toolkits, Practical Deep Learning teaches you the why of deep learning and will inspire you to explore further.
+All you need is basic familiarity with computer programming and high school math—the book will cover the rest. After an introduction to Python, you’ll move through key topics like how to build a good training dataset, work with the scikit-learn and Keras libraries, and evaluate your models’ performance.
+You’ll also learn:
+
+How to use classic machine learning models like k-Nearest Neighbors, Random Forests, and Support Vector Machines
+How neural networks work and how they’re trained
+How to use convolutional neural networks
+How to develop a successful deep learning model from scratch
+
+You’ll conduct experiments along the way, building to a final case study that incorporates everything you’ve learned. All of the code you’ll use is available here: https://github.com/rkneusel9/PracticalDeepLearningPython/
+The perfect introduction to this dynamic, ever-expanding field, Practical Deep Learning will give you the skills and confidence to dive into your own machine learning projects.
+",Beginner,0.65
+Python Crash Course,Eric Matthes,2022,3rd Edition,"Read a Q&A with Eric Matthes
+Download Chapter 2: VARIABLES AND SIMPLE DATA TYPES
+Look Inside!
+ 
+Python Crash Course is the world’s best-selling guide to the Python programming language. This fast-paced, thorough introduction will have you writing programs, solving problems, and developing functioning applications in no time.
+You’ll start by learning basic programming concepts, such as variables, lists, classes, and loops, and practice writing clean code with exercises for each topic. You’ll also learn how to make your programs interactive and test your code safely before adding it to a project. You’ll put your new knowledge into practice by creating a Space Invaders–inspired arcade game, building a set of data visualizations with Python’s handy libraries, and deploying a simple application online.
+As you work through the book, you’ll learn how to:
+
+Use powerful Python libraries and tools, including pytest, Pygame, Matplotlib, Plotly, and Django
+Make increasingly complex 2D games that respond to keypresses and mouse clicks
+Generate interactive data visualizations using a variety of datasets
+Build apps that allow users to create accounts and manage their own data, and deploy your apps online
+Troubleshoot coding errors and solve common programming problems
+
+New to this edition: This third edition is completely revised to reflect the latest in Python code. New and updated coverage includes VS Code for text editing, the pathlib module for file handling, pytest for testing your code, as well as the latest features of Matplotlib, Plotly, and Django.
+If you’ve been thinking about digging into programming, Python Crash Course will provide you with the skills to write real programs fast. Why wait any longer? Start your engines and code!
+ 
+",Beginner,0.68
+Python Flash Cards,Eric Matthes,2019,,"
+Look Inside!
+
+
+
+Featured on ElectronicsWeekly.com.
+Keep your coding skills sharp on the go! Python Flash Cards take a tried-and-tested method and give it a programming makeover. Eric Matthes, author of the best-selling Python Crash Course, distills essential Python programming knowledge into this 101-card deck you can use anywhere.
+Work through the deck in order or shuffle it up for a new study session every time. You can brush up foundational programming principles and vocabulary like data structures, logical control, and program flow, quiz yourself on Python syntax, and test your skills against exercises and challenges designed to keep you on your toes — all in one sitting.
+Don't let your Python training stop at the keyboard. With Python Flash Cards, the power of Python fits in your pocket.
+",Beginner,0.64
+Python for Data Science,Yuli Vasiliev,2022,,"Look Inside!
+
+
+Download Chapter 9: ANALYZING LOCATION DATA
+ 
+Python is an ideal choice for accessing, manipulating, and gaining insights from data of all kinds. Python for Data Science introduces you to the Pythonic world of data analysis with a learn-by-doing approach rooted in practical examples and hands-on activities. You’ll learn how to write Python code to obtain, transform, and analyze data, practicing state-of-the-art data processing techniques for use cases in business management, marketing, and decision support.
+You will discover Python’s rich set of built-in data structures for basic operations, as well as its robust ecosystem of open-source libraries for data science, including NumPy, pandas, scikit-learn, matplotlib, and more. Examples show how to load data in various formats, how to streamline, group, and aggregate data sets, and how to create charts, maps, and other visualizations. Later chapters go in-depth with demonstrations of real-world data applications, including using location data to power a taxi service, market basket analysis to identify items commonly purchased together, and machine learning to predict stock prices.
+",Beginner,0.7
+Python for Excel Power Users,Tracy Stephens,2025,,"Excel is a mainstay of the modern workplace, but it isn’t always the best tool for the job. Python for Excel Power Users offers a better way, showing how Python and other coding tools can boost your productivity by streamlining your workflow. Even if you’re inexperienced at programming, you are not starting from scratch—this book leverages what you already know in Excel to introduce you to useful Python concepts that will have you up and coding in no time. Beyond Python, you’ll learn skills such as:
+
+Managing and querying database data using SQL
+Obtaining data from external sources through API calls
+Developing basic web pages with HTML
+Creating attractive dashboards and reports with Dash
+Collaborating with others and tracking how projects evolve using Git
+
+Practical examples illustrate how your new coding skills can be immediately applied to your day-to-day work. You’ll be amazed at how much more you can do once you escape the confines of the spreadsheet and replace Excel in your workflow.
+",Intermediate,0.44
+Python for Kids,Jason R. Briggs,2022,2nd Edition,"Download Chapter 8: HOW TO USE CLASSES AND OBJECTS
+Look Inside!
+
+Python is a powerful programming language that’s easy to learn and fun to use! But books about programming in Python can be dull and that’s no fun for anyone.
+Python for Kids brings kids (and their parents) into the wonderful world of programming. Jason R. Briggs guides you through the basics, experimenting with unique (and hilarious) example programs featuring ravenous monsters, secret agents, thieving ravens, and more. New terms are defined; code is colored and explained; puzzles stretch the brain and strengthen understanding; and full-color illustrations keep you engaged throughout. 
+By the end of the book, you’ll have programmed two games: a clone of the famous Pong, and “Mr. Stick Man Races for the Exit”—a platform game with jumps and animation.
+This second edition is revised and updated to reflect Python 3 programming practices. There are new puzzles to inspire you and two new appendices to guide you through Python’s built-in modules and troubleshooting your code.
+As you strike out on your programming adventure, you’ll learn how to:
+
+Use fundamental data structures like lists, tuples, and dictionaries  
+Organize and reuse your code with functions and modules
+Use control structures like loops and conditional statements 
+Draw shapes and patterns with Python’s turtle module
+Create games, animations, and other graphical wonders with tkinter
+
+Why should serious adults have all the fun? Python for Kids is your ticket into the amazing world of computer programming.
+Covers Python 3.x which runs on Windows, macOS, Linux, even Raspberry Pi
+",Beginner,0.64
+Python One-Liners,Christian Mayer,2020,,"Look Inside!
+
+
+
+
+
+Download Chapter 2: PYTHON TRICKS (PDF)
+Download Python One-Liners cheat sheets (PDF)
+Please visit the book's companion site for cheat sheets and video tutorials.
+Download executable files here.
+
+
+Python One-Liners will teach you how to read and write “one-liners”: concise statements of useful functionality packed into a single line of code. You'll learn how to systematically unpack and understand any line of Python code, and write eloquent, powerfully compressed Python like an expert. 
+The book’s five chapters cover tips and tricks, regular expressions, machine learning, core data science topics, and useful algorithms. Detailed explanations of one-liners introduce key computer science concepts and boost your coding and analytical skills.
+You'll learn about advanced Python features such as list comprehension, slicing, lambda functions, regular expressions, map and reduce functions, and slice assignments.
+You’ll also learn how to:
+
+ Leverage data structures to solve real-world problems, like using Boolean indexing to find cities with above-average pollution
+ Use NumPy basics such as array, shape, axis, type, broadcasting, advanced indexing, slicing, sorting, searching, aggregating, and statistics
+ Calculate basic statistics of multidimensional data arrays and the K-Means algorithms for unsupervised learning
+ Create more advanced regular expressions using grouping and named groups, negative lookaheads, escaped characters, whitespaces, character sets (and negative characters sets), and greedy/nongreedy operators
+ Understand a wide range of computer science topics, including anagrams, palindromes, supersets, permutations, factorials, prime numbers, Fibonacci numbers, obfuscation, searching, and algorithmic sorting
+
+By the end of the book, you’ll know how to write Python at its most refined, and create concise, beautiful pieces of ""Python art"" in merely a single line.
+",Intermediate,0.45
+Python Playground,Mahesh Venkitachalam,2023,2nd Edition,"Download Chapter 1: THE KOCH SNOWFL AKE
+Look Inside!
+
+Harness the power of Python as you turn code into tangible creations with Python Playground, a collection of 15 inventive projects that will expand your programming horizons, spark your curiosity, and elevate your coding skills.
+Go beyond the basics as you write programs to generate art and music, simulate real-world phenomena, and interact with hardware, all through the use of Python and common libraries such as numpy, matplotlib, and Pillow.
+As you work through the book’s projects, you will:
+
+Craft intricate Spirograph-like designs with parametric equations and the turtle module
+Generate music by synthesizing plucked string sounds
+Transform everyday images into ASCII art, photomosaics, and eye-popping autostereograms
+Design engaging cellular automata and flocking simulations
+Explore the realm of 3D graphics, from basic shape rendering to visualizing MRI scan data
+Build a Raspberry Pi–powered laser show that dances along with music
+
+New to this edition: We’ve expanded your playground with five new projects: you’ll draw fractals, bring Conway’s Game of Life into 3D space, and use a Raspberry Pi and Python to create a musical instrument, an IoT garden monitor, and even a machine learning–driven speech recognition system.
+Whether you’re a seasoned professional or just getting started, you’ll find Python Playground to be a great way to learn, experiment with, and master this versatile programming language.
+",Intermediate,0.46
+Python Tools for Scientists,Lee Vaughan,2022,,"Download Chapter 16: THE INFOVIS, SCIVIS, AND DASHBOARDING LIBRARIES
+Look Inside!
+
+
+Python Tools for Scientists will introduce you to Python tools you can use in your scientific research, including Anaconda, Spyder, Jupyter Notebooks, JupyterLab, and numerous Python libraries. You’ll learn to use Python for tasks such as creating visualizations, representing geospatial information, simulating natural events, and manipulating numerical data.
+Once you’ve built an optimal programming environment with Anaconda, you’ll learn how to organize your projects and use interpreters, text editors, notebooks, and development environments to work with your code. Following the book’s fast-paced Python primer, you’ll tour a range of scientific tools and libraries like scikit-learn and seaborn that you can use to manipulate and visualize your data, or analyze it with machine learning algorithms.
+You’ll also learn how to:
+
+Create isolated projects in virtual environments, build interactive notebooks, test code in the Qt console, and use Spyder’s interactive development features
+Use Python’s built-in data types, write custom functions and classes, and document your code
+Represent data with the essential NumPy, Matplotlib, and pandas libraries
+Use Python plotting libraries like Plotly, HoloViews, and Datashader to handle large datasets and create 3D visualizations
+
+Regardless of your scientific field, Python Tools for Scientists will show you how to choose the best tools to meet your research and computational analysis needs.
+",Beginner,0.6
+Real-World Python,Lee Vaughan,2020,,"Look Inside!
+
+
+
+
+Download Chapter 2: ATTRIBUTING AUTHORSHIP WITH STYLOMETRY
+You can find code files and solutions to the book's programs at its GitHub page.
+PROGRAM PYTHON LIKE A PROFESSIONAL
+With its emphasis on project-based practice, Real World Python will take you from playing with syntax to writing complete programs in no time. You’ll conduct experiments, explore statistical concepts, and solve novel problems that have frustrated geniuses throughout history, like detecting distant exoplanets, as you continue to build your Python skills.
+Chapters begin with a clearly defined project goal and a discussion of ways to attack the problem, followed by a mission designed to make you think like a programmer. You’ll direct a Coast Guard search-and-rescue effort, plot and execute a NASA flight to the moon, protect access to a secure lab using facial recognition, and more. Along the way you’ll learn how to:
+
+Use libraries like matplotlib, NumPy, Bokeh, pandas, Requests, Beautiful Soup, and turtle
+Work with Natural Language Processing and computer vision modules like NLTK and OpenCV
+Write a program to detect and track objects moving across a starfield
+Scrape speeches from the internet and autosummarize them
+Use the Mars Orbiter Laser Altimeter (MOLA) map to select spacecraft landing sites
+Survive a zombie apocalypse with the aid of data-plotting and visualization tools
+
+The book’s programs are beginner-friendly, but as you progress you’ll learn more sophisticated techniques to help you grow your coding capabilities. Once your missions are accomplished, you’ll be ready to solve real-world problems with Python on your own.
+",Beginner,0.72
+Serious Python,Julien Danjou,2018,,"""Serious Python contains a considerable amount of judicious battle-tested advice from an experienced developer—as well as some insightful gems from the guest contributors—making the overall effort a welcome addition to the limited number of books aimed at more advanced Python programmers.""
+—Michael J. Ross, web developer and former Slashdot contributor.
+Download Chapter 6: Unit Testing
+Sharpen your Python skills as you dive deep into the Python programming language with Serious Python. You’ll cover a range of advanced topics like multithreading and memorization, get advice from experts on things like designing APIs and dealing with databases, and learn Python internals to help you gain a deeper understanding of the language itself. Written for developers and experienced programmers, Serious Python brings together over 15 years of Python experience to teach you how to avoid common mistakes, write code more efficiently, and build better programs in less time. 
+As you make your way through the book’s extensive tutorials, you’ll learn how to start a project and tackle topics like versioning, layouts, coding style, and automated checks. You’ll learn how to package your software for distribution, optimize performance, use the right data structures, define functions efficiently, pick the right libraries, build future-proof programs, and optimize your programs down to the bytecode. 
+You’ll also learn how to: 
+
+Make and use effective decorators and methods, including abstract, static, and class methods
+Employ Python for functional programming using generators, pure functions, and functional functions
+Extend flake8 to work with the abstract syntax tree (AST) to introduce more sophisticated automatic checks into your programs
+Apply dynamic performance analysis to identify bottlenecks in your code
+Work with relational databases and effectively manage and stream data with PostgreSQL
+
+If you’ve been looking for a way to take your Python skills from good to great, Serious Python will help you get there. Learn from the experts and get seriously good at Python with Serious Python!
+",Intermediate,0.42
+Teach Your Kids to Code,Bryson Payne,2015,,"Bryson Payne and Teach Your Kids to Code are featured in The Wall Street Journal!
+Teach Your Kids Kids to Code was selected as one of the best books for learning Python by Real Python
+“A straightforward, crystal-clear guide to programming in Python...Sophisticated concepts and serious programming make for an easy, enjoyable game for families.”
+—Kirkus Reviews
+“An easy five stars...With the information provided in Teach Your Kids to Code, kids (and adults) will have a solid foundation from which to jump to more advanced programming books.”
+—James Floyd Kelly, GeekDad
+“Kid coders who have mastered the likes of Scratch, or older students who are math inclined and want to learn how to code, will find a worthy choice in Payne’s guide to Python programming.”
+—School Library Journal
+Listen to Bryson Payne's interview with A Closer Look on WABE, Atlanta's NPR station, and check out why the book was nominated for the opensource.com 2015 summer reading list.
+Bryson Payne's Udemy course is now available! Register with coupon code NOSTARCH27 and follow along with lessons from Teach Your Kids to Code.
+
+Download Chapter 6: Random Fun and Games! (PDF)
+Download ""Installing Pygame for Python 3 on Mac and Linux"" (PDF)
+Download the code files and solutions to programming challenges
+
+
+Look Inside!
+
+
+
+Teach Your Kids to Code is a parent's and teacher's guide to teaching kids basic programming and problem solving using Python, the powerful language used in college courses and by tech companies like Google and IBM.
+
+Step-by-step explanations will have kids learning computational thinking right away, while visual and game-oriented examples hold their attention. Friendly introductions to fundamental programming concepts such as variables, loops, and functions will help even the youngest programmers build the skills they need to make their own cool games and applications.
+
+Whether you've been coding for years or have never programmed anything at all, Teach Your Kids to Code will help you show your young programmer how to:
+
+Explore geometry by drawing colorful shapes with Turtle graphics
+Write programs to encode and decode messages, play Rock-Paper-Scissors, and calculate how tall someone is in Ping-Pong balls
+Create fun, playable games like War, Yahtzee, and Pong
+Add interactivity, animation, and sound to their apps
+
+
+Teach Your Kids to Code is the perfect companion to any introductory programming class or after-school meet-up, or simply your educational efforts at home. Spend some fun, productive afternoons at the computer with your kids—you can all learn something!
+",Intermediate,0.41
+The Art of Clean Code,Christian Mayer,2022,,"Download Chapter 2: THE 80/20 PRINCIPLE
+Look Inside!
+
+
+ 
+Most software developers waste thousands of hours working with overly complex code. The eight core principles in The Art of Clean Code will teach you how to write clear, maintainable code without compromising functionality. The book’s guiding principle is simplicity: reduce and simplify, then reinvest energy in the important parts to save you countless hours and ease the often onerous task of code maintenance.
+Bestselling author Christian Mayer leverages his experience helping thousands perfect their coding skills in this new book. With expert advice and real-world examples, he’ll show you how to:
+
+Concentrate on the important stuff with the 80/20 principle — focus on the 20% of your code that matters most
+Avoid coding in isolation: create a minimum viable product to get early feedback
+ Write code cleanly and simply to eliminate clutter
+Avoid premature optimization that risks over-complicating code
+Balance your goals, capacity, and feedback to achieve the productive state of Flow
+Apply the Do One Thing Well philosophy to vastly improve functionality
+Design efficient user interfaces with the Less is More principle
+Tie your new skills together into one unifying principle: Focus
+
+This Python-based guide is suitable for programmers at any level, with ideas presented in a language-agnostic manner.
+",Intermediate,0.42
+The Big Book of Small Python Projects,Al Sweigart,2021,,"Look Inside!
+
+ 
+Download Chapter 11: CLICKBAIT HEADLINE GENERATOR
+
+
+Download the resource files used in the book
+
+If you’ve mastered basic Python syntax and you’re ready to start writing programs, you’ll find The Big Book of Small Python Projects both enlightening and fun. This collection of 81 Python projects will have you making digital art, games, animations, counting pro- grams, and more right away. Once you see how the code works, you’ll practice re-creating the programs and experiment by adding your own custom touches.
+These simple, text-based programs are 256 lines of code or less. And whether it’s a vintage screensaver, a snail-racing game, a clickbait headline generator, or animated strands of DNA, each project is designed to be self-contained so you can easily share it online.
+You’ll create:
+
+Hangman, Blackjack, and other games to play against your friends or the computer
+Simulations of a forest fire, a million dice rolls, and a Japanese abacus
+Animations like a virtual fish tank, a rotating cube, and a bouncing DVD logo screensaver
+A first-person 3D maze game
+Encryption programs that use ciphers like ROT13 and Vigenère to conceal text
+
+If you’re tired of standard step-by-step tutorials, you’ll love the learn-by-doing approach of The Big Book of Small Python Projects. It’s proof that good things come in small programs!
+",Beginner,0.6
+The Book of Dash,"Adam Schroeder, Christian Mayer, and Ann Marie Ward",2022,,"Download Chapter 4: FIRST DASH APP
+Look Inside!
+
+
+A swift and practical introduction to building interactive data visualization apps in Python, known as dashboards. You’ve seen dashboards before; think election result visualizations you can update in real time, or population maps you can filter by demographic. With the Python Dash library you’ll create analytic dashboards that present data in effective, usable, elegant ways in just a few lines of code.
+The book is fast-paced and caters to those entirely new to dashboards. It will talk you through the necessary software, then get straight into building the dashboards themselves. You’ll learn the basic format of a Dash app by building a twitter analysis dashboard that maps the number of likes certain accounts gained over time. You’ll build up skills through three more sophisticated projects. The first is a global analysis app that compares country data in three areas: the percentage of a population using the internet, percentage of parliament seats held by women, and CO2 emissions. You’ll then build an investment portfolio dashboard, and an app that allows you to visualize and explore machine learning algorithms.
+In this book you will:
+
+Create and run your first Dash apps
+Use the pandas library to manipulate and analyze social media data
+Use Git to download and build on existing apps written by the pros
+Visualize machine learning models in your apps
+Create and manipulate statistical and scientific charts and maps using Plotly
+
+Dash combines several technologies to get you building dashboards quickly and efficiently. This book will do the same.
+",Beginner,0.85
+The Recursive Book of Recursion,Al Sweigart,2022,,"Look Inside!
+
+
+Download Chapter 1: WHAT IS RECURSION?
+Recursion has an intimidating reputation: it’s considered to be an advanced computer science topic frequently brought up in coding interviews. But there’s nothing magical about recursion. 
+The Recursive Book of Recursion uses Python and JavaScript examples to teach the basics of recursion, exposing the ways that it’s often poorly taught and clarifying the fundamental principles of all recursive algorithms. You’ll learn when to use recursive functions (and, most importantly, when not to use them), how to implement the classic recursive algorithms often brought up in job interviews, and how recursive techniques can help solve countless problems involving tree traversal, combinatorics, and other tricky topics.
+ 
+This project-based guide contains complete, runnable programs to help you learn:
+
+How recursive functions make use of the call stack, a critical data structure almost never discussed in lessons on recursion
+How the head-tail and “leap of faith” techniques can simplify writing recursive functions
+How to use recursion to write custom search scripts for your filesystem, draw fractal art, create mazes, and more
+How optimization and memoization make recursive algorithms more efficient
+
+Al Sweigart has built a career explaining programming concepts in a fun, approachable manner. If you’ve shied away from learning recursion but want to add this technique to your programming toolkit, or if you’re racing to prepare for your next job interview, this book is for you.
+",Intermediate,0.4
