@@ -86,8 +86,9 @@ class NearEarthObject:
 
     def __repr__(self):
         """Return `repr(self)`, a computer-readable string representation of this object."""
+        diameter = self.diameter if self.diameter is not None else float('nan')
         return f"NearEarthObject(designation={self.designation!r}, name={self.name!r}, " \
-               f"diameter={self.diameter:.3f}, hazardous={self.hazardous!r})"
+               f"diameter={diameter}, hazardous={self.hazardous!r})"
 
 
 class CloseApproach:
@@ -103,6 +104,10 @@ class CloseApproach:
     private attribute, but the referenced NEO is eventually replaced in the
     `NEODatabase` constructor.
     """
+    DESIGNATION = 'des'
+    TIME = 'cd'
+    DISTANCE = 'dist'
+    VELOCITY = 'v_rel'
     # TODO: How can you, and should you, change the arguments to this constructor?
     # If you make changes, be sure to update the comments in this file.
     def __init__(self, **info):
@@ -114,13 +119,20 @@ class CloseApproach:
         # onto attributes named `_designation`, `time`, `distance`, and `velocity`.
         # You should coerce these values to their appropriate data type and handle any edge cases.
         # The `cd_to_datetime` function will be useful.
-        self._designation = ''
-        self.time = None  # TODO: Use the cd_to_datetime function for this attribute.
-        self.distance = 0.0
-        self.velocity = 0.0
+        self._designation = info.get(self.DESIGNATION) if info.get(self.DESIGNATION) else None
+        # TODO: Use the cd_to_datetime function for this attribute.
+        self.time = cd_to_datetime(info.get(self.TIME)) if info.get(self.TIME) else None  
+        self.distance = self._convert_to_float(info.get(self.DISTANCE)) if info.get(self.DISTANCE) else float('nan')
+        self.velocity = self._convert_to_float(info.get(self.VELOCITY)) if info.get(self.VELOCITY) else float('nan')
 
         # Create an attribute for the referenced NEO, originally None.
         self.neo = None
+
+    def _convert_to_float(self, value):
+        try:
+            return float(value)
+        except (TypeError, ValueError):
+            return float('nan')
 
     @property
     def time_str(self):
@@ -138,16 +150,22 @@ class CloseApproach:
         # TODO: Use this object's `.time` attribute and the `datetime_to_str` function to
         # build a formatted representation of the approach time.
         # TODO: Use self.designation and self.name to build a fullname for this object.
-        return ''
+        return datetime_to_str(self.time) if self.time else None
 
     def __str__(self):
         """Return `str(self)`."""
         # TODO: Use this object's attributes to return a human-readable string representation.
         # The project instructions include one possibility. Peek at the __repr__
         # method for examples of advanced string formatting.
-        return f"A CloseApproach ..."
+        full_name = self.neo.fullname if self.neo else 'unknown NEO'
+        time_s = self.time_str if self.time else 'unknown time'
+        distance_str = f"{self.distance:.2f}" if self.distance is not None else "unknown distance"
+        velocity_str = f"{self.velocity:.2f}" if self.velocity is not None else "unknown velocity"
+        return f"A CloseApproach of {full_name} on {time_s} at a distance of {distance_str} au and a velocity of {velocity_str} km/s"
 
     def __repr__(self):
         """Return `repr(self)`, a computer-readable string representation of this object."""
-        return f"CloseApproach(time={self.time_str!r}, distance={self.distance:.2f}, " \
-               f"velocity={self.velocity:.2f}, neo={self.neo!r})"
+        distance = self.distance if self.distance is not None else float('nan')
+        velocity = self.velocity if self.velocity is not None else float('nan')
+        return f"CloseApproach(time={self.time_str!r}, distance={distance}, " \
+               f"velocity={velocity}, neo={self.neo!r})"
