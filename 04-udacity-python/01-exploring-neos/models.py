@@ -161,7 +161,8 @@ class CloseApproach:
         time_s = self.time_str if self.time else 'unknown time'
         distance_str = f"{self.distance:.2f}" if self.distance is not None else "unknown distance"
         velocity_str = f"{self.velocity:.2f}" if self.velocity is not None else "unknown velocity"
-        return f"A CloseApproach of {full_name} on {time_s} at a distance of {distance_str} au and a velocity of {velocity_str} km/s"
+        # On 1911-10-15 19:16, '1036 (Ganymed)' approaches Earth at a distance of 0.38 au and a velocity of 17.09 km/s.
+        return f"On {time_s}, '{full_name}' approaches Earth at a distance of {distance_str} au and a velocity of {velocity_str} km/s."   
 
     def __repr__(self):
         """Return `repr(self)`, a computer-readable string representation of this object."""

@@ -29,8 +29,6 @@ def load_neos(neo_csv_path='data/neos.csv'):
     with open(neo_csv_path) as f:
         reader = csv.DictReader(f)
         for row in reader:
-            if reader.line_num > 10:  # Limit loading to 10 values!!!
-                break
             # Print the row to see the data only for these 4 columns
             # print(f"pdes:'{row['pdes']}', name:'{row['name']}', diameter:'{row['diameter']}', pha:'{row['pha']}'")    
             neos.append(NearEarthObject(pdes=row['pdes'], name=row['name'], 
@@ -49,8 +47,6 @@ def load_approaches(cad_json_path='data/cad.json'):
     with open(cad_json_path) as f:
         data = json.load(f)
         for row in data['data']:
-            if len(approaches) > 100:  # Limit loading to 10 values!!!
-                break
             # Print the row to see the data only for these 3 columns
             # print(f"cd:'{row[3]}', dist:'{row[4]}', v_rel:'{row[7]}'")
             # "fields":["des", "orbit_id", "jd", "cd", "dist", "dist_min", "dist_max", "v_rel", "v_inf", "t_sigma_f", "h"]
