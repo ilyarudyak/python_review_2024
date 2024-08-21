@@ -32,6 +32,11 @@ class NearEarthObject:
     initialized to an empty collection, but eventually populated in the
     `NEODatabase` constructor.
     """
+    DESIGNATION = 'pdes'
+    NAME = 'name'
+    HAZARDOUS = 'pha'
+    DIAMETER = 'diameter'
+
     # TODO: How can you, and should you, change the arguments to this constructor?
     # If you make changes, be sure to update the comments in this file.
     def __init__(self, **info):
@@ -44,26 +49,40 @@ class NearEarthObject:
         # You should coerce these values to their appropriate data type and
         # handle any edge cases, such as a empty name being represented by `None`
         # and a missing diameter being represented by `float('nan')`.
-        self.designation = ''
-        self.name = None
-        self.diameter = float('nan')
-        self.hazardous = False
+        self.designation = info.get(self.DESIGNATION) if info.get(self.DESIGNATION) else None
+        self.name = info.get(self.NAME) if info.get(self.NAME) else None
+        self.diameter = self._convert_to_float(info.get(self.DIAMETER)) if info.get(self.DIAMETER) else float('nan')
+        self.hazardous = self._convert_to_bool(info.get(self.HAZARDOUS)) if info.get(self.HAZARDOUS) else None
 
         # Create an empty initial collection of linked approaches.
         self.approaches = []
 
+    def _convert_to_float(self, value):
+        try:
+            return float(value)
+        except (TypeError, ValueError):
+            return float('nan')
+
+    def _convert_to_bool(self, value):
+        return value == 'Y'
+    
     @property
     def fullname(self):
         """Return a representation of the full name of this NEO."""
         # TODO: Use self.designation and self.name to build a fullname for this object.
-        return ''
+        return f'{self.designation} ({self.name})' if self.name else f'{self.designation}'
 
     def __str__(self):
         """Return `str(self)`."""
         # TODO: Use this object's attributes to return a human-readable string representation.
         # The project instructions include one possibility. Peek at the __repr__
         # method for examples of advanced string formatting.
-        return f"A NearEarthObject ..."
+        if self.hazardous is None:
+            hazardous_str = 'unknown if hazardous'
+        else:
+            hazardous_str = 'hazardous' if self.hazardous else 'not hazardous'
+        diameter_str = f"{self.diameter:.3f}" if self.diameter is not None else "unknown diameter"
+        return f"NEO {self.fullname} has a diameter of {diameter_str} km and is {hazardous_str}"
 
     def __repr__(self):
         """Return `repr(self)`, a computer-readable string representation of this object."""
