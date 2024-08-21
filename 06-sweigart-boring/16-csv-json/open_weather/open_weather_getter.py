@@ -18,7 +18,7 @@ class OpenWeathergetter:
     """
     
     def __init__(self,
-                 api_key='7aaf1274677ac65376fd25fd151962e4', 
+                 api_key='', 
                  city_name='New York', state_code='NY', country_code='US'):
         self._api_key = api_key
         self._lat_long_url = f'http://api.openweathermap.org/geo/1.0/direct?q={city_name},{state_code},{country_code}&appid={api_key}'
