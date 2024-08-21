@@ -50,7 +50,7 @@ class NasaApodFetcher:
 
     """
     def __init__(self, 
-                 api_key=''):
+                 api_key='nT42s3YGpdffPM4WpJtApeSpHb4uRVOmwJM2XGGk'):
         self._api_key = api_key
         self._date = sys.argv[1] if len(sys.argv) > 1 else time.strftime('%Y-%m-%d')
         self._url = f'https://api.nasa.gov/planetary/apod?date={self._date}&api_key={api_key}'
