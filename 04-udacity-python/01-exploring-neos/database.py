@@ -12,6 +12,7 @@ data on NEOs and close approaches extracted by `extract.load_neos` and
 You'll edit this file in Tasks 2 and 3.
 """
 from collections import defaultdict
+import math
 
 class NEODatabase:
     """A database of near-Earth objects and their close approaches.
@@ -109,4 +110,43 @@ class NEODatabase:
         """
         # TODO: Generate `CloseApproach` objects that match all of the filters.
         for approach in self._approaches:
-            yield approach
+            if self._check_filters(filters, approach):
+                yield approach
+
+    def _check_filters(self, filters, approach):
+        for key, value in filters.items():
+            # Check if the filter is set
+            if value is not None: 
+                if key == 'date':
+                    if value != approach.time.date():
+                        return False
+                elif key == 'start_date':
+                    if value > approach.time.date():
+                        return False
+                elif key == 'end_date':
+                    if value < approach.time.date():
+                        return False
+                elif key == 'distance_min':
+                    if math.isnan(approach.distance) or (value > approach.distance):
+                        return False
+                elif key == 'distance_max':
+                    if math.isnan(approach.distance) or (value < approach.distance):
+                        return False
+                elif key == 'velocity_min':
+                    if math.isnan(approach.velocity) or (value > approach.velocity):
+                        return False
+                elif key == 'velocity_max':
+                    if math.isnan(approach.velocity) or (value < approach.velocity):
+                        return False
+                elif key == 'diameter_min':
+                    if math.isnan(approach.neo.diameter) or (value > approach.neo.diameter):
+                        return False
+                elif key == 'diameter_max':
+                    if math.isnan(approach.neo.diameter) or (value < approach.neo.diameter):
+                        return False
+                elif key == 'hazardous':
+                    if value != approach.neo.hazardous:
+                        return False
+                else:
+                    raise ValueError(f'Invalid filter: {key}')
+        return True

@@ -17,6 +17,7 @@ iterator.
 You'll edit this file in Tasks 3a and 3c.
 """
 import operator
+import itertools
 
 
 class UnsupportedCriterionError(NotImplementedError):
@@ -109,7 +110,15 @@ def create_filters(
     :return: A collection of filters for use with `query`.
     """
     # TODO: Decide how you will represent your filters.
-    return ()
+    # Represent filters as a dictionary of key-value pairs,
+    # where the key is the filter name and the value is True
+    # if the filter is not None and False otherwise.
+    filters = {'date': date, 'start_date': start_date, 'end_date': end_date,
+               'distance_min': distance_min, 'distance_max': distance_max,
+               'velocity_min': velocity_min, 'velocity_max': velocity_max,
+               'diameter_min': diameter_min, 'diameter_max': diameter_max,
+               'hazardous': hazardous}
+    return filters
 
 
 def limit(iterator, n=None):
@@ -122,4 +131,6 @@ def limit(iterator, n=None):
     :yield: The first (at most) `n` values from the iterator.
     """
     # TODO: Produce at most `n` values from the given iterator.
-    return iterator
+    if n is None or n == 0:
+        return iterator
+    return itertools.islice(iterator, n)

@@ -52,7 +52,7 @@ class NearEarthObject:
         self.designation = info.get(self.DESIGNATION) if info.get(self.DESIGNATION) else None
         self.name = info.get(self.NAME) if info.get(self.NAME) else None
         self.diameter = self._convert_to_float(info.get(self.DIAMETER)) if info.get(self.DIAMETER) else float('nan')
-        self.hazardous = self._convert_to_bool(info.get(self.HAZARDOUS)) if info.get(self.HAZARDOUS) else None
+        self.hazardous = self._convert_to_bool(info.get(self.HAZARDOUS)) 
 
         # Create an empty initial collection of linked approaches.
         self.approaches = []
@@ -64,7 +64,13 @@ class NearEarthObject:
             return float('nan')
 
     def _convert_to_bool(self, value):
-        return value == 'Y'
+        if value == 'Y':
+            return True
+        elif value == 'N':
+            return False
+        # If the value is not 'Y' or 'N', return False as well
+        else:
+            return False
     
     @property
     def fullname(self):

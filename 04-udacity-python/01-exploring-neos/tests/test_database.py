@@ -101,7 +101,7 @@ class TestDatabase(unittest.TestCase):
         self.assertEqual(lemmon.designation, '2013 TL117')
         self.assertEqual(lemmon.name, 'Lemmon')
         self.assertTrue(math.isnan(lemmon.diameter))
-        self.assertEqual(lemmon.hazardous, None) # Change tests to None
+        self.assertEqual(lemmon.hazardous, False) # Change back to False
 
         jormungandr = self.db.get_neo_by_name('Jormungandr')
         self.assertIsNotNone(jormungandr)
