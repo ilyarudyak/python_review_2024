@@ -1,0 +1,86 @@
+Wed, Sep 4, 2024
+Due next
+Exercises: Lecture 1: What is statistics due 11:59 AM UTC
+-----
+Wed, Sep 11, 2024
+Not yet released
+Exercises: Lecture 2: Probability Redux due 11:59 AM UTC
+Homework: Homework 0: Probability Review, Modes of Convergence and Optional Linear Algebra Exercises due 11:59 AM UTC 
+Not yet released
+-----
+Wed, Sep 18, 2024
+Not yet released
+Exercises: Lecture 3: Parametric Statistical Modelsdue11:59 AM UTC
+Exercises: Lecture 4: Parametric Estimation and Confidence Intervalsdue11:59 AM UTC
+Homework: Homework 1: Estimation, Confidence Interval due 11:59 AM UTC
+-----
+Wed, Sep 25, 2024
+Not yet released
+Exercises: Lecture 5: Confidence Intervals and Delta Method due 11:59 AM UTC
+Homework: Homework 2: Statistical Models, Estimation, and Confidence Intervalsdue11:59 AM UTC
+-----
+Wed, Oct 2, 2024
+Not yet released
+Exercises: Lecture 6: Measures of Distance Between Probability Distributions due 11:59 AM UTC
+Exercises: Lecture 7: Computing the Maximum Likelihood Estimator due 11:59 AM UTC
+Homework: Homework 3: TV distance, KL-Divergence, and Introduction to MLE due 11:59 AM UTC
+-----
+Wed, Oct 9, 2024
+Not yet released
+Exercises: Lecture 8: Examples of Maximum Likelihood Estimators due 11:59 AM UTC
+Exercises: Lecture 9: Statistical Properties of the MLE due 11:59 AM UTC
+Homework: Homework 4: Maximum Likelihood Estimation, EM Algorithm (Univariate) due 11:59 AM UTC
+-----
+Wed, Oct 16, 2024
+Not yet released
+Exercises: Lecture 10: Other Methods of Estimation: Method of Moments and M-Estimation due 11:59 AM UTC
+Homework: Homework 5: Maximum Likelihood Estimation Review , Method of Moments due 11:59 AM UTC
+-----
+Mon, Oct 21, 2024
+Not yet released
+Midterm: Midterm Exam 1 due 11:59 AM UTC
+-----
+Wed, Oct 30, 2024
+Not yet released
+Exercises: Lecture 11: Introduction to Parametric Hypothesis Testing due 11:59 AM UTC
+Exercises: Lecture 12: The Wald Test and Likelihood Ratio Test due 11:59 AM UTC
+Homework: Homework 6: Introduction to Hypothesis Testing due 11:59 AM UTC
+-----
+Wed, Nov 6, 2024
+Not yet released
+Exercises: Lecture 13: The T-test due 11:59 AM UTC
+Exercises: Lecture 14: Multiple Hypothesis Testing due 11:59 AM UTC
+Homework: Homework 7 due 11:59 AM UTC
+-----
+Wed, Nov 13, 2024
+Not yet released
+Exercises: Lecture 15: Goodness of Fit Test for Discrete Distributions due 11:59 AM UTC
+Exercises: Lecture 16: The Kolmogorov-Smirnov test due 11:59 AM UTC
+Exercises: Lecture 17: The Kolmogorov-Lilliefors test and Quantile-Quantile Plots due 11:59 AM UTC
+Homework: Homework 8 due 11:59 AM UTC
+-----
+Wed, Nov 20, 2024
+Not yet released
+Exercises: Lecture 18: Introduction to Bayesian Statistics due 11:59 AM UTC
+Exercises: Lecture 19: Jeffreys Prior and Bayesian Confidence Interval due 11:59 AM UTC
+Homework: Homework 9: Bayesian Statistics due 11:59 AM UTC
+-----
+Mon, Nov 25, 2024
+Not yet released
+Midterm: Midterm Exam 2 due 11:59 AM UTC
+-----
+Wed, Dec 4, 2024
+Not yet released
+Exercises: Lecture 20: Linear Regression 1 due 11:59 AM UTC
+Exercises: Lecture 21: Linear Regression 2 due 11:59 AM UTC
+Homework: Homework 10 Linear regression due 11:59 AM UTC
+-----
+Wed, Dec 11, 2024
+Not yet released
+Exercises: Lecture 22: Introduction to Generalized Linear Models; Exponential Families due 11:59 AM UTC
+Exercises: Lecture 23: GLM: Link Functions and the Canonical Link Function due 11:59 AM UTC
+Homework: Homework 11 due 11:59 AM UTC
+-----
+Mon, Dec 16, 2024
+Not yet released
+Final: Final Exam due 11:59 AM UTC
