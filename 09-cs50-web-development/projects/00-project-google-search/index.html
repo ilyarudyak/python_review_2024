@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <body>
+
+        <!-- A form to search on Google Search 
+             
+             Like Google’s own, your search bar should be centered with rounded corners. 
+             The search button should also be centered, and should be beneath the search bar.
+        -->
+        <form action="https://google.com/search" style="text-align: center; margin-top: 20%;">
+            <input type="text" name="q" placeholder="Search" 
+            style="width: 300px; padding: 10px; border-radius: 25px; border: 1px solid #ccc;">
+            <br><br>
+            <input type="submit" value="Google Search" 
+                   style="padding: 10px 20px; border: 1px solid #ccc; 
+                   background-color: #f8f8f8; cursor: pointer;">
+            <!-- Add an “I’m Feeling Lucky” button to the main Google Search page. 
+                 Consistent with Google’s own behavior, clicking this link should take users 
+                 directly to the first Google search result for the query, 
+                 bypassing the normal results page.
+            -->
+            <input type="submit" value="I'm Feeling Lucky" 
+                   name="btnI"
+                   style="padding: 10px 20px; border: 1px solid #ccc; 
+                     background-color: #f8f8f8; cursor: pointer;">
+        </form>
+
+        <!-- A link in the upper-right to go to Image Search in file image_search.html -->
+        <a href="image_search.html" style="position: absolute; top: 10px; right: 10px;">
+            Image Search
+        </a>
+
+        <!-- A link in the upper-right to go to Advanced Search in file advanced_search.html -->
+        <a href="advanced_search.html" style="position: absolute; top: 10px; right: 150px;">
+            Advanced Search
+        </a>
+    </body>
+</html>

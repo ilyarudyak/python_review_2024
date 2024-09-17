@@ -1,0 +1,34 @@
+<!-- On the Google Image Search page, the user should be able to type in a query, 
+     click a search button, and be taken to the Google Image search results for 
+     that page.
+    
+     The form should submit to https://www.google.com/imghp, with a query parameter
+     q that contains the user's search query. 
+     
+     The form should contain an input field for the user's query, and a submit button.
+     The input field should have the name q.
+    
+     The submit button should have the value Google Image Search. -->
+
+<!DOCTYPE html>
+<html lang="en"></html>
+    <head>
+        <title>Image Search</title>
+    </head>
+    <body>
+        <!-- A form to search for image on Google Image Search -->
+        <form action="https://www.google.com/search" method="GET" style="text-align: center; margin-top: 20%;">
+            <input type="hidden" name="tbm" value="isch" >
+            <input type="text" name="q" placeholder="Search for images"
+                   style="width: 300px; padding: 10px; border-radius: 25px; border: 1px solid #ccc;">
+            <br><br>
+            <input type="submit" value="Image Search"
+                   style="padding: 10px 20px; border: 1px solid #ccc; 
+                          background-color: #f8f8f8; cursor: pointer;">
+        </form>
+
+        <!-- A link in the upper-right to go back to Google Search in index.html -->
+        <a href="index.html" style="position: absolute; top: 10px; right: 10px;">
+            Back to Google Search
+        </a>
+    </body>
